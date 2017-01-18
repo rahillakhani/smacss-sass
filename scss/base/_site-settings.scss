@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+// ----------------------
+// == Site settings
+// ----------------------
+
+// Fonts
+$font1: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font2: Georgia, serif;
+$fontSize: 14px;
+// = Colors
+// -----------------------------
+
+// Graphic chart
+$red: #df2e30;
+$blue: #1894c4;
+$facebook: #3b5998;
+$twitter: #43bfe1;
+
+$color1: $red;
+$color2: $blue;
+
+$white: #fff;
+$background: #ccc;
+$headWhite: #fefefe;
+$lightGreyBg: #F5F5F5;;
+$midGreyBg: #aaa;
+$darkGrey: #333333;
+
+
+// = Grid
+// -----------------------------
+
+// Max width wrapper
+$wrapper-width: pxToEm(1140, 16);
+
