@@ -3,21 +3,24 @@
    ======================= */
 
 .box {
+	padding: 10px;
+	background: $headWhite;
 
-}
+	&-head  {
+		@extend .reset;
+		font-size: 17px;
+		font-weight: bold;
+	}
+	&-title {
+		font-size: 15px;
+		font-weight: bold;
+	}
+	&-body  {
+		@extend .reset;
+		font-size: 13px;
 
-.box-head  {
-
-}
-
-.box-title {
-
-}
-
-.box-body  {
-
-}
-
-.box-foot  {
-
+	}
+	&-foot  {
+		background: $midGreyBg;
+	}
 }

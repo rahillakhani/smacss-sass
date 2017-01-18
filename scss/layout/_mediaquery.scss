@@ -1,0 +1,11 @@
+$breakMobile: 500px;
+$breakTablet: 850px;
+$breakDesktop: 1200;
+$breakWide: 1800px;
+
+
+@media screen and (max-width: $breakMobile) {
+	.two-col-form {
+		display: block;
+	}
+}
