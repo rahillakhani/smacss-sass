@@ -4,8 +4,17 @@ $breakDesktop: 1200;
 $breakWide: 1800px;
 
 
-@media screen and (max-width: $breakMobile) {
+/*@media screen and (max-width: $breakMobile) and (min-width: $breakTablet) {
 	.two-col-form {
 		display: block;
 	}
+	.a
+	.b
+	.v
 }
+@media screen and (min-width: $breakDesktop) {
+	.a
+	.b
+	.d
+}
+*/

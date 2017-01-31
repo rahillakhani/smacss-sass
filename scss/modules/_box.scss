@@ -1,4 +1,4 @@
-/* ==|====================
+/* =======================
    Module/Box
    ======================= */
 
@@ -11,14 +11,14 @@
 		font-size: 17px;
 		font-weight: bold;
 	}
-	&-title {
-		font-size: 15px;
-		font-weight: bold;
-	}
 	&-body  {
 		@extend .reset;
 		font-size: 13px;
 
+		&-title {
+			font-size: 15px;
+			font-weight: bold;
+		}
 	}
 	&-foot  {
 		background: $midGreyBg;
