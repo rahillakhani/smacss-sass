@@ -1,0 +1,9 @@
+
+html, body {
+    height:100%;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}

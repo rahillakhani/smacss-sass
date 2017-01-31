@@ -1,0 +1,23 @@
+{
+  "name": "smacss",
+  "version": "1.0.0",
+  "description": "smacss with sass, and night watch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahillakhani/smacss-sass.git"
+  },
+  "author": "rahillakhani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahillakhani/smacss-sass/issues"
+  },
+  "homepage": "https://github.com/rahillakhani/smacss-sass#readme",
+  "devDependencies": {
+    "cucumber": "^2.0.0-rc.6",
+    "nightwatch-cucumber": "^7.0.7"
+  }
+}
