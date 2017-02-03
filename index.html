@@ -1,32 +1,55 @@
 <html>
-	<head>
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<div class="page-container">
-			<div class="header-strip">
-					<img class="logo" src="img/eprime_logo.jpg" alt=""/>
-				<button class="burger-menu"></button>
-				<div class="page-title">Header</div>
-				<ul class="right-navigation">
-					<li>img</li>
-					<li>img1</li>
-					<li>img2</li>
-					<li>img3</li>
-				</ul>
-			</div>	
-			<div class="left-navigation-primary">
+
+<head>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="page-container">
+		<div class="header-strip">
+			<img class="logo" src="img/eprime_logo.jpg" alt="" />
+			<button class="burger-menu"></button>
+			<div class="page-title">Header</div>
+			<ul class="right-navigation">
+				<li>action</li>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</ul>
+		</div>
+		<div class="container-primary">
+			<div class="left-navigation-primary"><!--level 1 navigation (Always)-->
 				<ul class="link-container">
+					<li>link</li>
 					<li>1</li>
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
+					<li>2</li>
+					<li>3</li>
 				</ul>
 
 			</div>
-			<div class="container-secondary">
+			<div class="content-primary"><!--level 1 container (Always)-->
 				
+				<div class="navigation-secondary"><!--level 2 navigation (for tertiary navigation)-->
+					<ul class="link-container">
+						<li>Patient Info</li>
+						<li>
+								1
+						</li>
+						<li>2</li>
+						<li>3</li>
+					</ul>
+				</div>
+				<div class="container-secondary"><!--level 2 container (for secondary and tertiary content (Always))-->
+					<div class="header-secondary">
+						inner header
+					</div>
+					<div class="content-secondary">
+						content for secondary and tertiary
+					</div>
+				</div>
 			</div>
 		</div>
-	</body>
+	</div>
+</body>
+
 </html>

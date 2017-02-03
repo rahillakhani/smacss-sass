@@ -1,7 +1,4 @@
-.page-container {
-	height: 100%;
-    box-sizing: border-box;
-}
+
 .header-strip {
 	background: #333;
 	padding: 5px;
@@ -37,22 +34,22 @@
 		}
 	}
 }
+.link-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	text-align: center;
+	border-right: 1px solid #333;
+}
 .left-navigation-primary {
 	background: #cccccc;
 	height: 100%;
-	float: left;
 	width: 40px;
-	.link-container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		height: 100vh;
-		text-align: center;
-		li {
-			padding: 5px;
-			background: #ffffff;
-			margin: 5px;
-			cursor: pointer;
-		}
+	.link-container li {
+		padding: 5px;
+		background: #ffffff;
+		margin: 5px;
+		cursor: pointer;
 	}
 }

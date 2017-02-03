@@ -1,0 +1,21 @@
+.page-container {
+	height: 100%;
+    box-sizing: border-box;
+
+	.container-primary {
+		display: flex;
+		.left-navigation-primary {
+			flex: 0.4;
+		}
+		.content-primary {
+			flex: 10;
+			display: flex;
+			.navigation-secondary {
+				flex: 3;
+			}
+			.container-secondary {
+				flex: 10;
+			}
+		}
+	}
+}
