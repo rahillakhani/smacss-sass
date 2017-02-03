@@ -3,5 +3,5 @@
 *.sublime-project
 .scssc
 .sass-cache/
-*.css
+#*.css
 /node_modules/
