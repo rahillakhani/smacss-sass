@@ -4,6 +4,10 @@ html, body {
     font-size: 0.9em;
 	background: $primery-background-color;
 }
+h3 {
+	margin: 10px;
+	color: #777777;	
+}
 .clearfix:after {
 	content: "";
 	display: block;

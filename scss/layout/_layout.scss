@@ -9,6 +9,7 @@
 				position: relative;
 				img {
 					height: 40px;
+					vertical-align: bottom;
 				}
 			}
 			&.expanded
@@ -29,7 +30,7 @@
 			display: table-cell;
 			vertical-align: top;
 			.header-strip {
-				padding-left: 30px;
+				padding-left: 35px;
 			}
 		}
 		.content-primary {
