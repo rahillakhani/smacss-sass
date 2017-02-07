@@ -1,6 +1,9 @@
 @import 'base/reset';
 @import 'base/variable';
+@import 'base/mixin';
 @import 'base/global';
 
 @import 'layout/layout';
 @import 'layout/page';
+
+@import 'modules/navigation.scss'

@@ -1,0 +1,40 @@
+.left-navigation-primary {
+	background: #1995ad;
+	/*height: 100%;*/
+	width: 40px;
+	.link-container {
+		li {
+			padding:4px;
+			margin: 5px;
+			cursor: pointer;
+			position: relative;
+			& > a > img
+			{
+				vertical-align: middle;
+			}
+			& > a > span 
+			{
+				
+				vertical-align: middle;
+				padding-left:10px;
+				color: #FFF;
+				display: none;
+				
+
+			}
+
+			& > ul
+			{
+				border: 1px solid #ccc;
+				position: absolute;
+				left: 100%;
+				top: 50%;
+				background: #1995ad;
+				color:#fff;
+				width:150px;
+				display:none;
+			}
+			
+		}
+	}
+}

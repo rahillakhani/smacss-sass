@@ -1,11 +1,14 @@
-
 .header-strip {
-	background: #333;
+	background: #1995ad;
 	padding: 5px;
+	@extend .clearfix;
 	.logo {
 		cursor: pointer;
 		vertical-align: middle;
 		height: 30px;
+		&-expanded {
+			display: none;
+		}
 	}
 	.burger-menu {
 		padding: 5px;
@@ -19,7 +22,7 @@
 	.page-title {
 		display: inline-block;
 		vertical-align: middle;
-		padding-left: 10px;
+		padding: 10px;
 		font-size: 20px;
 		color: #ffffff;
 	}
@@ -28,28 +31,28 @@
 		color: #ffffff;
 		li {
 			display: inline-block;
-			padding: 5px;
+			padding: 0px;
 			margin: 0 5px;
 			cursor: pointer;
 		}
 	}
 }
+.expanded {
+	.header-strip .logo{
+		&-expanded {
+			display: inline-block;
+		}
+		&-default {
+			display: none;
+		}		
+	}
+
+}
 .link-container {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	height: 100vh;
-	text-align: center;
-	border-right: 1px solid #333;
-}
-.left-navigation-primary {
-	background: #cccccc;
-	height: 100%;
-	width: 40px;
-	.link-container li {
-		padding: 5px;
-		background: #ffffff;
-		margin: 5px;
-		cursor: pointer;
-	}
+	text-align: left;
+	border-right: 1px solid #f1f1f2;	
 }
